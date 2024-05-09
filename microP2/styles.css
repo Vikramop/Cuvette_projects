@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 0 6rem;
+}
+
+.navbar {
+  background-color: #6f6af7;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo h1 {
+  font-family: Delius Unicase;
+  color: white;
+  font-size: 3rem;
+}
+
+.links {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.links p {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.search {
+  position: relative;
+}
+
+.search input {
+  /* position: relative; */
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 15px;
+}
+.search img {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.sec-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 4.5rem 0;
+}
+
+.para {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2), 2px 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: #e5d8ff;
+  height: 42vh;
+  width: 70%;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.para p {
+  font-family: sans-serif;
+  color: #6f7373;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.img {
+  width: 30%;
+}
+
+.img img {
+  height: 50vh;
+  width: 90%;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  /* background-color: red; */
+  /* margin: 5rem 0; */
+}
+
+.light-blue,
+.dark-blue,
+.purple,
+.black {
+  padding: 10px 20px;
+  /* flex: 1; */
+  margin-right: 20px;
+  width: 180px;
+  height: 60px;
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* text-align: center; */
+  border-radius: 8px;
+  height: 80px;
+}
+
+.box:last-child {
+  margin-right: 0;
+}
+
+.light-blue {
+  background-color: #929dff;
+}
+
+.light-blue p {
+  margin: 5px 0;
+  font-size: 1.5rem;
+}
+.dark-blue {
+  background-color: #734cf2;
+}
+
+.dark-blue p {
+  margin: 5px 0;
+  font-size: 1.5rem;
+}
+.purple {
+  background-color: #d288ff;
+}
+
+.purple p {
+  margin: 5px 0;
+  font-size: 1.5rem;
+}
+.black {
+  background-color: #000000;
+}
+
+.black p {
+  margin: 5px 0;
+  font-size: 1.5rem;
+}
